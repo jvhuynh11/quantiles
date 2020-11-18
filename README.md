@@ -39,7 +39,15 @@ The `LICENSE` and `LICENSE.md` files were created using the function:
 use_mit_license("Justin Huynh")
 ``` 
 
-I added documentation to the `tertile` function using a `roxygen2` skeleton above my function in its script. I included the `importFrom` function in the documentation to ensure that the package can make use of the `quantile` function from the `stats` package.
+I added documentation to the `tertile` function using a `roxygen2` skeleton above my function in its script. I included the `importFrom` function in the documentation to ensure that the package can make use of the `quantile` function from the `stats` package. I rendered the documentation using the `devtools::document()` funciton. This created a `man` folder with the `tertile.rd` documentation file inside and changed the `NAMESPACE` file.
+
+I used the `use_testthat()` function to create the `tests` folder and associated files and folders within. I then used the following function to create a test script in the `testthat` folder:
+```
+use_test("tertile")
+```
+Within the `test_tertile` script, I used the tests created in assignment 1B.
+
+
 
 
 
