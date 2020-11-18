@@ -6,9 +6,11 @@ Authors@R:
            family = "Huynh",
            role = c("aut", "cre"),
            email = "justinvu11@gmail.com")
-Description: What the package does (one paragraph).
+Description: This package contains functions which calculate specific quantiles for a numeric vector.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat
