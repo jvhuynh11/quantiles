@@ -1,0 +1,26 @@
+---
+title: "tertile"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{tertile}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(quantiles)
+```
+
+Tertile gives the 33rd and 66th percentile values for a numeric vector as shown below:
+
+```{r}
+tertile(1:100)
+```
+
